@@ -8,7 +8,7 @@ Most language models in this repository are trained using the **Machado de Assis
 
 ### 1. Language Modeling Architectures
 
-* **`Modelo_de_Linguagem_(Bengio_2003)_MLP_+_Embeddings.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jcumbicosr/processamento-linguagem-natural/blob/main/Modelo_de_Linguagem_(Bengio_2003)_MLP_+_Embeddings.ipynb)
+* **`Modelo_de_Linguagem_(Bengio_2003)_MLP_+_Embeddings.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jcumbicosr/processamento-linguagem-natural/blob/main/Modelo_de_Linguagem_(Bengio_2003)_MLP_%2B_Embeddings.ipynb)
 
     * **Description:** Implementation of the classic Neural Probabilistic Language Model by Bengio et al. (2003).
     * **Implementation Details:** This notebook constructs a feed-forward neural network (MLP) that learns a distributed representation for words. It uses a fixed-size context window (n-gram approach) where input words are mapped to dense vectors via an **Embedding layer**. These vectors are concatenated and passed through linear hidden layers with non-linear activations (tanh/ReLU) to predict the probability distribution of the next word via a **Softmax** output layer.
